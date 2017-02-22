@@ -11,29 +11,35 @@ h1{
 .tiles{
 	margin: 0 auto;
 	padding: 20px;
-	width: 520px;
+	width: 627px;
 	background-color:#bbada0;
 	border-radius: 10px;
 	text-align: center;
 	line-height: 80px;
+	height: 560px;
 }
 .row{
 	margin: 0 auto;
 	padding: 0px;
+	height: 130px;
 }
 .tile{
 	line-height: 80px;
-	padding: 10px;
+	padding: 31px;
 	text-align: center;
-	font-size: 55px;
+	font-size: 50px;
 	font-weight: bold;
 	display: inline-flex;
 	list-style: none;
-	height: 80px;
-	width: 80px;
+	height: 120px;
+	width: 121px;
 	margin: 8px;
 	background-color:rgba(238, 228, 218, 0.35);
 	border-radius: 5px;
+}
+.tile p {
+	padding: 0px;
+	margin: 0px;
 }
 .tile_2{
 	background-color: #eee4da;
@@ -59,11 +65,11 @@ h1{
 }
 .tile_128{
 	color :  #f9f6f2;
-	background-color:#f9f6f2;
+	background-color:#801a00;
 }
 .tile_256{
 	color :  #f9f6f2;
-	background-color:#f9f6f2;
+	background-color:#cc2900;
 }
 .tile_512{
 	color :  #f9f6f2;
