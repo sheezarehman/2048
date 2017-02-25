@@ -1,8 +1,33 @@
 body{
 	background-color: #faf8ef;
 	color: black;
+	background-image: url("https://cdn.pixabay.com/photo/2016/02/27/22/54/fancy-background-1226383_1280.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 h1{
+	text-align: center;
+	color: white;
+}
+input{
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 20px;
+}
+input , .restart{
+	margin: 10px 40%;
+} 
+.restart{
+	background-color: #bf3d79;
+}
+.mouse img{
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+}
+.mouse{
 	text-align: center;
 }
 .result{
@@ -11,69 +36,87 @@ h1{
 .tiles{
 	margin: 0 auto;
 	padding: 20px;
-	width: 520px;
-	background-color:#bbada0;
+	width: 627px;
+	background-color:#7f2851;
 	border-radius: 10px;
 	text-align: center;
 	line-height: 80px;
+	height: 560px;
 }
 .row{
 	margin: 0 auto;
 	padding: 0px;
+	height: 130px;
 }
+
+
 .tile{
 	line-height: 80px;
-	padding: 10px;
+	padding: 31px;
 	text-align: center;
-	font-size: 55px;
+	font-size: 50px;
 	font-weight: bold;
 	display: inline-flex;
 	list-style: none;
-	height: 80px;
-	width: 80px;
+	height: 120px;
+	width: 121px;
 	margin: 8px;
 	background-color:rgba(238, 228, 218, 0.35);
 	border-radius: 5px;
+	animation: fadein 2s;
+}
+.tile p {
+	color :  #f9f6f2;
+	padding: 0px;
+	margin: 0px;
+	opacity: 0.2;
+
 }
 .tile_2{
-	background-color: #eee4da;
+	color :  #f9f6f2;
+	background-color: #aa366c;
 }
 .tile_4{
-	background-color:#ede0c8;
+	color :  #f9f6f2;
+	background-color:#bf3d79;
 }
 .tile_8{
 	color :  #f9f6f2;
-	background-color:#f2b179;
+	background-color:#952f5e;
 }
 .tile_16{
 	color :  #f9f6f2;
-	background-color: #f2b179;
+	background-color: #952f5e;
 }
 .tile_32{
 	color :  #f9f6f2;
-	background-color: #f67c5f;
+	background-color: #6a2243;
 }
 .tile_64{
 	color :  #f9f6f2;
-	background-color: #f65e3b;
+	background-color:#6a2243;
 }
 .tile_128{
 	color :  #f9f6f2;
-	background-color:#f9f6f2;
+	background-color:#952f5e;
 }
 .tile_256{
 	color :  #f9f6f2;
-	background-color:#f9f6f2;
+	background-color:#952f5e;
 }
 .tile_512{
 	color :  #f9f6f2;
-	background-color:#ff3300;
+	background-color:#952f5e;
 }
 .tile_1024{
 	color :  #f9f6f2;
-	background-color: #cc2900;
+	background-color: #952f5e;
 }
 .tile_2048{
 	color :  #f9f6f2;
-	background-color:#801a00;
+	background-color:#952f5e;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
