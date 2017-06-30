@@ -21,6 +21,7 @@ input , .restart{
 } 
 .restart{
 	background-color: #bf3d79;
+	width: 17.2%;
 }
 .mouse img{
 	height: 50px;
